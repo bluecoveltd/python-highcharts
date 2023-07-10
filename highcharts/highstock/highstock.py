@@ -10,7 +10,7 @@ import json, uuid
 import re
 import datetime
 import html
-from collections import Iterable
+from collections.abc import Iterable
 from .options import BaseOptions, ChartOptions, \
     ColorsOptions, CreditsOptions, ExportingOptions, \
     GlobalOptions, LabelsOptions, LangOptions, \
